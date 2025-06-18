@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja</h1>
+        <nav>
+            <a href="index.html">Inicial</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Nossos Produtos</h2>
+
+        <div class="produto">
+            <img src="/assets/produto 2b.jpg" alt="Produto 1">
+            <h3>Creme Verde 100g</h3>
+            <p>Creme hidratante de textura leve, ideal para todos os tipos de pele. Embalado em um elegante pote verde, proporciona maciez e frescor com rápida absorção..</p>
+
+            <label>Consultar Frete Grátis:</label>
+            <input type="text" id="cep1" placeholder="Digite o CEP">
+            <button onclick="consultarFrete('cep1', 'resultado1')">Verificar</button>
+            <p id="resultado1"></p>
+        </div>
+
+        <div class="produto">
+            <img src="/assets/produto 2.jpg" alt="Produto 2">
+            <h3>Creme Verde 300g</h3>
+            <p>Creme hidratante de textura leve, ideal para todos os tipos de pele. Embalado em um elegante pote verde, proporciona maciez e frescor com rápida absorção..</p>
+
+            <label>Consultar Frete Grátis:</label>
+            <input type="text" id="cep2" placeholder="Digite o CEP">
+            <button onclick="consultarFrete('cep2', 'resultado2')">Verificar</button>
+            <p id="resultado2"></p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+        <p>Contato: contato@minhaloja.com | (11) 99999-9999</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
